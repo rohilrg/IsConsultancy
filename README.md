@@ -73,7 +73,7 @@ Create a Scikit-Learn pipeline for data preprocessing and modeling with the foll
 ### d. Model Training
 
 - Train an XGBoost model or SVC model using the processed TF-IDF vectors.
-- Use a categorical column named "group_id" from the original DataFrame as the target variable.
+- Use a categorical column named "is_consultancy" from the original DataFrame as the target variable.
 - Utilize cross-validation with the training subset for model training.
 - Employ grid search to find the best hyperparameters for the XGBoost/SVC model.
 
