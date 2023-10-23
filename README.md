@@ -97,7 +97,7 @@ Trained model results from Foundernest:
 weighted avg       0.74      0.76      0.75       775
 ````
 
-XGB model trained performance on test data: 
+### XGB model trained performance on test data: 
 ````bash
               precision    recall  f1-score   support
 
@@ -111,7 +111,7 @@ weighted avg       0.87      0.86      0.85       159
 ````
 Confusion matrix:
 ![Confusion Matrix](output/cm_xgb.png)
-SVC trained model performance on test data:
+### SVC trained model performance on test data:
 
 ````bash
               precision    recall  f1-score   support
@@ -128,8 +128,9 @@ Confusion matrix:
 
 # Further Steps to improve the model:
 The further steps to take to improve the results of the model.
-* There is class imbalance that should be addressed.
+* There is class imbalance that should be addressed using different techniques like smote etc.
 * Verification of annotations/ ground truth.
 * Grid search for hyper parameters of the models involved.
-* Use more sophisticated embeddings from hugging face, spacy.
-* 
+* Use more sophisticated embeddings from hugging face and other places to better convert it to better numerical embeddings
+* The LLM models can also be used by using this example here: https://www.tome01.com/getting-started-with-langchain-for-text-classification-in-python.
+* Feature engineering of new features extracted from text data.
